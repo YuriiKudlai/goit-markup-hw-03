@@ -60,6 +60,7 @@ body {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .list {
@@ -85,7 +86,6 @@ body {
   letter-spacing: 0.03em;
 
   margin-right: 93px;
-
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -162,6 +162,8 @@ body {
 
 .hero {
   background-color: #2f303a;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -174,15 +176,10 @@ body {
   text-transform: uppercase;
 }
 
-.hero-container {
-  padding-bottom: 280px;
-}
-
 .hero-container-title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
   padding-bottom: 30px;
 }
 
@@ -211,20 +208,16 @@ body {
 
 /*---------------features---------------*/
 
-.features-container {
-  display: flex;
-}
-
 .list-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-right: -30px;
   margin-bottom: -30px;
 }
 
 .features-item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
@@ -250,13 +243,9 @@ body {
 
 /*---------------our-work---------------*/
 
-.our-team-container {
-  padding-top: 0;
-}
-
 .our-work-list {
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
@@ -278,13 +267,9 @@ body {
   background-color: #f5f4fa;
 }
 
-.our-team-title {
-  padding-top: 94px;
-}
-
 .our-team-item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 30px;
 
   background: #ffffff;
@@ -292,8 +277,11 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
 
-  padding-bottom: 30px;
+.team-card-text {
+  padding: 30px 20px;
+  text-align: center;
 }
 
 .worker-title {
@@ -304,7 +292,6 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -320,20 +307,16 @@ body {
 
 .logo-container {
   display: block;
-  padding-top: 60px;
-}
-
-.addres-container {
-  padding-top: 20px;
-  padding-bottom: 60px;
 }
 
 .footer-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .addres {
@@ -346,7 +329,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-contacts .link {
@@ -380,6 +363,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .btn:hover,
@@ -394,13 +378,13 @@ body {
 .example-list-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-right: -30px;
   margin-bottom: -30px;
 }
 
 .example-item {
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
@@ -410,6 +394,7 @@ body {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .example-title {
@@ -418,9 +403,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  padding-left: 24px;
-  padding-top: 20px;
 }
 
 .example-text {
@@ -428,8 +410,4 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-
-  padding-top: 4px;
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
