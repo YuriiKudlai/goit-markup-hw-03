@@ -108,6 +108,7 @@ body {
 
 .site-nav {
   display: flex;
+  margin-right: 331px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -139,7 +140,6 @@ body {
 
 .header-contacts {
   display: flex;
-  margin-left: auto;
   align-items: center;
 }
 
@@ -242,6 +242,9 @@ body {
 }
 
 /*---------------our-work---------------*/
+.our-work {
+  padding-top: 0px;
+}
 
 .our-work-list {
   flex-basis: calc(100% / 3 - 30px);
@@ -280,7 +283,7 @@ body {
 }
 
 .team-card-text {
-  padding: 30px 20px;
+  padding: 20px 30px;
   text-align: center;
 }
 
@@ -304,6 +307,12 @@ body {
 }
 
 /*---------------footer---------------*/
+
+.logo-container > .logo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
 
 .logo-container {
   display: block;
