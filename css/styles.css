@@ -99,6 +99,7 @@ body {
 .nav-header {
   display: flex;
   align-items: center;
+  margin-right: 331px;
 }
 
 .header-container {
@@ -108,7 +109,6 @@ body {
 
 .site-nav {
   display: flex;
-  margin-right: 331px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -180,7 +180,7 @@ body {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hero-container-btn {
